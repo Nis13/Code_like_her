@@ -1,0 +1,35 @@
+.form_container{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+form{
+    background-color: rgb(92, 133, 119);
+    border-radius: 5px;
+    width: fit-content;
+    padding: 20px;
+}
+input, .submit_button{
+    display: block;
+    margin: 10px 5px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+li{
+    width: 30%;
+    border: 1px solid;
+    margin: 10px auto;
+    padding: 3px 3px;
+    background-color: bisque;
+}
+li button{
+    float: right;
+    margin-right: 5px;
+}

@@ -1,0 +1,10 @@
+nav{
+    background-color: antiquewhite;
+    margin: 3px;
+    height: 40px;
+}
+.nav_image{
+    height: 40px;
+    width: 40px;
+    float: left;
+}

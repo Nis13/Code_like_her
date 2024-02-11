@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+.clear_button_container {
+  display: flex;
+  justify-content: center;
+}
+.clear_button{
+  padding: 10px 5px;
+  margin: 10px auto;
+
+}
