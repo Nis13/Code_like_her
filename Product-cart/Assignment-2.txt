@@ -1,0 +1,32 @@
+**Objective:** Build a React application that fetches a list of products, from a free JSON API, displays the products, and allows users to interact with the data through a simple form.
+**Requirements:**
+1. **Setup:**
+   - Create a new React application using Create React App.
+   - Use functional components and hooks (e.g., `useState`, `useEffect`).
+2. **Products Data Fetching:**
+   - Fetch products data from a free JSON API
+   - Use the `axios` API and `useEffect` to handle data fetching.
+3. **Display Products:**
+   - Display the list of products with their title and price.
+   - Create a `ProductsList` component that takes a prop (`products`) and renders the list.
+4. **Form Handling with `useState`:**
+   - Implement a form that allows users to add new products.
+   - Include fields for entering a new products name and price.
+   - Use `useState` to manage the form state.
+5. **Interactive Elements:**
+   - Add buttons or links next to each user to allow users to delete individual entries.
+   - Implement a button that allows users to clear the entire list.
+6. **Props and Reusability:**
+   - Ensure that your components are modular and reusable.
+   - The `ProductsList` component should be reusable for different sets of users.
+7. **Styling:**
+   - Apply basic styling to make your application visually appealing.
+   - Utilize CSS modules or any styling approach of your choice.
+8. **Git and Version Control:**
+   - Initialize a Git repository in your project directory.
+   - Commit your changes with clear and meaningful commit messages.
+   - Use branches for different features or bug fixes.
+   - Create a Pull Request for each feature or bug fix and merge them after review.
+**Submission:**
+- Push your code to a remote repository on GitHub.
+- Include a README file explaining how to run the application locally and any additional information about the project.

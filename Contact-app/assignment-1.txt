@@ -1,0 +1,34 @@
+Task: Basic CRUD Application in React
+Objective: Build a simple CRUD application using React that allows users to manage a list of items. Focus on creating modular components, managing state and props, and practicing version control with Git.
+Requirements:
+Create React App:
+Set up a new React project using Create React App with version 18 (React 18 ).
+Component Structure:
+Create the following components in separate files:App.js: The main component that manages the state of the items.
+ItemList.js: Renders the list of items.
+Item.js: Represents an individual item with options to edit and delete.
+State Management:
+In the App.js component, manage the state of the items using React Hooks.
+Implement functions to add, edit, and delete items, updating the state accordingly.
+Props and Reusable Components:
+Pass necessary data and functions as props between components.
+Make the ItemList component reusable by using props to display different lists based on different states.
+Basic Styling:
+Apply basic styling to make the components visually appealing.
+Utilize CSS modules or any styling approach of your choice.
+CRUD Operations:
+Implement the following CRUD operations: Create: Add a new item to the list.
+Read: Display the list of items.
+Update: Edit the details of an existing item.
+Delete: Remove an item from the list.
+Version Control with Git:
+Initialize a Git repository in your project directory.
+Commit your changes with clear and meaningful commit messages.
+Create a Pull Request for each feature or bug fix and merge them after review.
+Submission:
+Push your code to a remote repository on GitHub.
+Include a README file explaining how to run the application locally and any additional information about the project.
+Bonus:
+Implement React Router for navigation between different views.
+Add form validation for adding and editing items.
+Explore and use any React 18 features that are relevant to your application.
