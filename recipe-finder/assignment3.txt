@@ -1,0 +1,32 @@
+1. Understanding Prerequisites:
+•	React Hooks: Users should understand how to use React hooks like useState and useEffect for managing state and handling side effects.
+•	Asynchronous JavaScript: Knowledge of asynchronous programming concepts and working with asynchronous functions is essential, especially for fetching data from APIs.
+•	Callback Functions in React: Users should know how to define and use callback functions in React components to handle events and pass data between components.
+2. Project Structure:
+•	App.js: Main component responsible for rendering the Recipe Finder application and managing its state.
+•	Detail.js: Component dedicated to displaying detailed information about a selected recipe.
+•	components/: Directory containing other React components used in the application.
+•	App.css: CSS file containing styles for styling the application's UI.
+3. Usage:
+Searching Recipes:
+•	When a user enters a meal name into the input field, the onChange event handler updates the query state with the entered value.
+•	The useEffect hook listens for changes in the query state and triggers the fetchRecipes function when the state changes.
+•	The fetchRecipes function asynchronously requests data from the MealDB API using the provided query string.
+•	After successfully fetching data, the recipes state is updated with the retrieved recipes, and they are displayed on the UI.
+Viewing Recipe Details:
+•	Each recipe displayed in the list is accompanied by a "View" button.
+•	When a user clicks the "View" button for a specific recipe, the handleViewDetail function is triggered, setting the selectedRecipe state to the details of the clicked recipe.
+•	The Detail component then renders with the details of the selected recipe, including its name, category, area, ingredients, and instructions.
+•	The "Back" button allows the user to return to the list of recipes.
+
+
+4. Project Flow:
+•	The RecipeFinder component initializes the application and serves as the main entry point, managing state variables such as query, recipes, and selectedRecipe.
+•	As the user interacts with the search input field, the query state is updated accordingly.
+•	The fetchRecipes function handles the fetching of recipes based on the user's search query, updating the recipes state.
+•	Clicking the "View" button for a recipe updates the selectedRecipe state, displaying detailed information about the selected recipe through the Detail component.
+•	The "Back" button resets the selectedRecipe state, allowing the user to return to the list of recipes.
+5. Necessary Items:
+•	The MealDB API endpoint https://www.themealdb.com/api/json/v1/1/search.php?s={query} is utilized to search for meal recipes based on the provided query string.
+
+•	To view the project:   https://recipefinder0.netlify.app/
