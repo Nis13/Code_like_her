@@ -12,3 +12,8 @@ Assignment 2: Product-cart
 - Fetch the data from API
 - Using React
    
+Assignment 3: Recipe-finder
+
+- react app
+- use of hooks(useState, useEffect)
+- use of asynchronous function
