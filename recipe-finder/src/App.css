@@ -1,0 +1,45 @@
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+h1{
+  text-align: center;
+}
+input{
+  width: 100%;
+  padding: 10px 15px ;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid rgb(171, 171, 171);
+}
+.recipe-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.back-button{
+  float: right;
+}
+.details{
+  color: rgb(127, 126, 126);
+  text-align: center;
+  display: block;
+}
+
+.details > img{
+  display: block;
+  margin: 0 auto;
+  max-width: 50%;
+  height: auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
